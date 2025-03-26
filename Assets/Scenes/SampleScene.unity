@@ -276,7 +276,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 224897267}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 432334742}
+        m_TargetAssemblyTypeName: LanguageManager, Assembly-CSharp
+        m_MethodName: SetLanguageToItalian
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &224897267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -652,8 +664,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 432334741}
+  - component: {fileID: 432334742}
   m_Layer: 0
-  m_Name: Empty
+  m_Name: LanguageManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -674,6 +687,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &432334742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432334740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb55cef50764d8c4e885087ba401e556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hairText: {fileID: 1658210496}
+  shirtText: {fileID: 753140143}
+  pantsText: {fileID: 1378117451}
+  shoesText: {fileID: 1247448859}
+  spanishTexts: {fileID: 11400000, guid: fca8a0d2def519a4b9c9a85ae335b9e5, type: 2}
+  englishTexts: {fileID: 11400000, guid: 729c005591272c04abd6762a9e96919d, type: 2}
+  italianTexts: {fileID: 11400000, guid: 09d1a47a581250a458b49b73f6244136, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,7 +880,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 616384578}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 432334742}
+        m_TargetAssemblyTypeName: LanguageManager, Assembly-CSharp
+        m_MethodName: SetLanguageToSpanish
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &616384578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1518,7 +1562,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1801352975}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 432334742}
+        m_TargetAssemblyTypeName: LanguageManager, Assembly-CSharp
+        m_MethodName: SetLanguageToEnglish
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1801352975
 MonoBehaviour:
   m_ObjectHideFlags: 0
